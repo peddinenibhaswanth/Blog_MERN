@@ -1,0 +1,8 @@
+# Ignore uploaded files
+api/uploads/*
+
+# Ignore environment variables
+api/.env
+
+# Ignore node modules (if any)
+node_modules

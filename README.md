@@ -165,7 +165,7 @@ Create a `.env` file in the `api/` directory:
 
 ```env
 # MongoDB Connection
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/blogdb?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/blogdb?retryWrites=true&w=majority
 
 # JWT Secret (use a strong random string)
 JWT_SECRET=your_super_secret_jwt_key_here
